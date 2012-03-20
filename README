@@ -1,3 +1,5 @@
 For use with the first release of Entity Framework .NET 3.5 edition.
 
 Manages the session per request. See the test project on how to use.
+
+http://cairey.wordpress.com/2009/10/14/entity-framework-session-per-request/
