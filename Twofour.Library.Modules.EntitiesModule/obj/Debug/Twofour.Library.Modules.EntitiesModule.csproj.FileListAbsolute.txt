@@ -1,0 +1,5 @@
+C:\clients\EntitiesModule\Twofour.Library.Modules.EntitiesModule\obj\Debug\ResolveAssemblyReference.cache
+C:\clients\EntitiesModule\Twofour.Library.Modules.EntitiesModule\bin\Debug\Library.Modules.EntitiesModule.dll
+C:\clients\EntitiesModule\Twofour.Library.Modules.EntitiesModule\bin\Debug\Library.Modules.EntitiesModule.pdb
+C:\clients\EntitiesModule\Twofour.Library.Modules.EntitiesModule\obj\Debug\Library.Modules.EntitiesModule.dll
+C:\clients\EntitiesModule\Twofour.Library.Modules.EntitiesModule\obj\Debug\Library.Modules.EntitiesModule.pdb

@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="1.0" xmlns:edmx="http://schemas.microsoft.com/ado/2007/06/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="MediaFreedomTestModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2005" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+        <EntityContainer Name="MediaFreedomTestModelStoreContainer">
+          <EntitySet Name="ApiFormat" EntityType="MediaFreedomTestModel.Store.ApiFormat" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ApiFormat_Format" EntityType="MediaFreedomTestModel.Store.ApiFormat_Format" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ApiStyle" EntityType="MediaFreedomTestModel.Store.ApiStyle" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ApiTranslation" EntityType="MediaFreedomTestModel.Store.ApiTranslation" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Asset" EntityType="MediaFreedomTestModel.Store.Asset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Asset_Asset" EntityType="MediaFreedomTestModel.Store.Asset_Asset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Asset_AssetContentItem" EntityType="MediaFreedomTestModel.Store.Asset_AssetContentItem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssetContentItem" EntityType="MediaFreedomTestModel.Store.AssetContentItem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssetContentItem_TagWord" EntityType="MediaFreedomTestModel.Store.AssetContentItem_TagWord" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssetContentPackage" EntityType="MediaFreedomTestModel.Store.AssetContentPackage" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssetTypeConfigurationElement" EntityType="MediaFreedomTestModel.Store.AssetTypeConfigurationElement" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AssignedPermission" EntityType="MediaFreedomTestModel.Store.AssignedPermission" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="AudioAsset" EntityType="MediaFreedomTestModel.Store.AudioAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Behaviour" EntityType="MediaFreedomTestModel.Store.Behaviour" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Channel" EntityType="MediaFreedomTestModel.Store.Channel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Channel_Folder" EntityType="MediaFreedomTestModel.Store.Channel_Folder" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ChapterPoint" EntityType="MediaFreedomTestModel.Store.ChapterPoint" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Comment" EntityType="MediaFreedomTestModel.Store.Comment" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ConfigurationElement" EntityType="MediaFreedomTestModel.Store.ConfigurationElement" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Container" EntityType="MediaFreedomTestModel.Store.Container" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DataAccessElement" EntityType="MediaFreedomTestModel.Store.DataAccessElement" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="DocumentAsset" EntityType="MediaFreedomTestModel.Store.DocumentAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Episode" EntityType="MediaFreedomTestModel.Store.Episode" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FeatureElement" EntityType="MediaFreedomTestModel.Store.FeatureElement" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="FileExtension" EntityType="MediaFreedomTestModel.Store.FileExtension" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Folder" EntityType="MediaFreedomTestModel.Store.Folder" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Format" EntityType="MediaFreedomTestModel.Store.Format" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ImageAsset" EntityType="MediaFreedomTestModel.Store.ImageAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Language" EntityType="MediaFreedomTestModel.Store.Language" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="LanguageName" EntityType="MediaFreedomTestModel.Store.LanguageName" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Part" EntityType="MediaFreedomTestModel.Store.Part" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Permission" EntityType="MediaFreedomTestModel.Store.Permission" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Playlist" EntityType="MediaFreedomTestModel.Store.Playlist" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PlaylistItem" EntityType="MediaFreedomTestModel.Store.PlaylistItem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Property" EntityType="MediaFreedomTestModel.Store.Property" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PropertyGroup" EntityType="MediaFreedomTestModel.Store.PropertyGroup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PropertyType" EntityType="MediaFreedomTestModel.Store.PropertyType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PropertyTypeDefault" EntityType="MediaFreedomTestModel.Store.PropertyTypeDefault" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Rating" EntityType="MediaFreedomTestModel.Store.Rating" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="RestrictionItem" EntityType="MediaFreedomTestModel.Store.RestrictionItem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Schedule" EntityType="MediaFreedomTestModel.Store.Schedule" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ScheduleItem" EntityType="MediaFreedomTestModel.Store.ScheduleItem" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="ScheduleSeries" EntityType="MediaFreedomTestModel.Store.ScheduleSeries" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Series" EntityType="MediaFreedomTestModel.Store.Series" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Server" EntityType="MediaFreedomTestModel.Store.Server" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StatsAggregatedVideoViews" EntityType="MediaFreedomTestModel.Store.StatsAggregatedVideoViews" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="StatsPageVisits" EntityType="MediaFreedomTestModel.Store.StatsPageVisits" store:Type="Tables" store:Schema="dbo" store:Name="StatsPageVisits">
+            <DefiningQuery>SELECT 
+      [StatsPageVisits].[Id] AS [Id], 
+      [StatsPageVisits].[PageUrl] AS [PageUrl], 
+      [StatsPageVisits].[DateVisit] AS [DateVisit]
+      FROM [dbo].[StatsPageVisits] AS [StatsPageVisits]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="StatsUsers" EntityType="MediaFreedomTestModel.Store.StatsUsers" store:Type="Tables" store:Schema="dbo" store:Name="StatsUsers">
+            <DefiningQuery>SELECT 
+      [StatsUsers].[Id] AS [Id], 
+      [StatsUsers].[UserName] AS [UserName], 
+      [StatsUsers].[DateLogin] AS [DateLogin], 
+      [StatsUsers].[IPAddress] AS [IPAddress], 
+      [StatsUsers].[Browser] AS [Browser], 
+      [StatsUsers].[BrowserVersion] AS [BrowserVersion]
+      FROM [dbo].[StatsUsers] AS [StatsUsers]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="StatsVideoViews" EntityType="MediaFreedomTestModel.Store.StatsVideoViews" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="SubtitleAsset" EntityType="MediaFreedomTestModel.Store.SubtitleAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="sysdiagrams" EntityType="MediaFreedomTestModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TaggedAssets" EntityType="MediaFreedomTestModel.Store.TaggedAssets" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TagGroup" EntityType="MediaFreedomTestModel.Store.TagGroup" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TagGroup_TagWord" EntityType="MediaFreedomTestModel.Store.TagGroup_TagWord" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TagWord" EntityType="MediaFreedomTestModel.Store.TagWord" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="TypeOfAsset" EntityType="MediaFreedomTestModel.Store.TypeOfAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="UrlRestriction" EntityType="MediaFreedomTestModel.Store.UrlRestriction" store:Type="Tables" store:Schema="dbo" store:Name="UrlRestriction">
+            <DefiningQuery>SELECT 
+      [UrlRestriction].[UrlRestrictionId] AS [UrlRestrictionId], 
+      [UrlRestriction].[Url] AS [Url], 
+      [UrlRestriction].[IsWhitelisted] AS [IsWhitelisted]
+      FROM [dbo].[UrlRestriction] AS [UrlRestriction]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="User_AssetViewed" EntityType="MediaFreedomTestModel.Store.User_AssetViewed" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="VideoAsset" EntityType="MediaFreedomTestModel.Store.VideoAsset" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="WebLinkAsset" EntityType="MediaFreedomTestModel.Store.WebLinkAsset" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_ApiFormat_Format_ApiFormat" Association="MediaFreedomTestModel.Store.FK_ApiFormat_Format_ApiFormat">
+            <End Role="ApiFormat" EntitySet="ApiFormat" />
+            <End Role="ApiFormat_Format" EntitySet="ApiFormat_Format" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApiFormat_Format_Format" Association="MediaFreedomTestModel.Store.FK_ApiFormat_Format_Format">
+            <End Role="Format" EntitySet="Format" />
+            <End Role="ApiFormat_Format" EntitySet="ApiFormat_Format" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ApiTranslation_Language" Association="MediaFreedomTestModel.Store.FK_ApiTranslation_Language">
+            <End Role="Language" EntitySet="Language" />
+            <End Role="ApiTranslation" EntitySet="ApiTranslation" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Asset_AssetContentItem_Asset" Association="MediaFreedomTestModel.Store.FK_Asset_AssetContentItem_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="Asset_AssetContentItem" EntitySet="Asset_AssetContentItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Asset_AssetContentItem_AssetContentItem" Association="MediaFreedomTestModel.Store.FK_Asset_AssetContentItem_AssetContentItem">
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+            <End Role="Asset_AssetContentItem" EntitySet="Asset_AssetContentItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssetContentItem_AssetContentPackage" Association="MediaFreedomTestModel.Store.FK_AssetContentItem_AssetContentPackage">
+            <End Role="AssetContentPackage" EntitySet="AssetContentPackage" />
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssetContentItem_Language" Association="MediaFreedomTestModel.Store.FK_AssetContentItem_Language">
+            <End Role="Language" EntitySet="Language" />
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssetContentItem_TagWord_AssetContentItem" Association="MediaFreedomTestModel.Store.FK_AssetContentItem_TagWord_AssetContentItem">
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+            <End Role="AssetContentItem_TagWord" EntitySet="AssetContentItem_TagWord" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssetContentItem_TagWord_TagWord" Association="MediaFreedomTestModel.Store.FK_AssetContentItem_TagWord_TagWord">
+            <End Role="TagWord" EntitySet="TagWord" />
+            <End Role="AssetContentItem_TagWord" EntitySet="AssetContentItem_TagWord" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AssetContentPackage_Behaviour" Association="MediaFreedomTestModel.Store.FK_AssetContentPackage_Behaviour">
+            <End Role="Behaviour" EntitySet="Behaviour" />
+            <End Role="AssetContentPackage" EntitySet="AssetContentPackage" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AudioAsset_Asset" Association="MediaFreedomTestModel.Store.FK_AudioAsset_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="AudioAsset" EntitySet="AudioAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AudioAsset_Format" Association="MediaFreedomTestModel.Store.FK_AudioAsset_Format">
+            <End Role="Format" EntitySet="Format" />
+            <End Role="AudioAsset" EntitySet="AudioAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ChapterPoint_Asset" Association="MediaFreedomTestModel.Store.FK_ChapterPoint_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="ChapterPoint" EntitySet="ChapterPoint" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Comment_AssetContentItem" Association="MediaFreedomTestModel.Store.FK_Comment_AssetContentItem">
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+            <End Role="Comment" EntitySet="Comment" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DocumentAsset_Format" Association="MediaFreedomTestModel.Store.FK_DocumentAsset_Format">
+            <End Role="Format" EntitySet="Format" />
+            <End Role="DocumentAsset" EntitySet="DocumentAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ImageAsset_Format" Association="MediaFreedomTestModel.Store.FK_ImageAsset_Format">
+            <End Role="Format" EntitySet="Format" />
+            <End Role="ImageAsset" EntitySet="ImageAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PlaylistItem_Playlist" Association="MediaFreedomTestModel.Store.FK_PlaylistItem_Playlist">
+            <End Role="Playlist" EntitySet="Playlist" />
+            <End Role="PlaylistItem" EntitySet="PlaylistItem" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Property_AssetContentItem" Association="MediaFreedomTestModel.Store.FK_Property_AssetContentItem">
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+            <End Role="Property" EntitySet="Property" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Property_PropertyType" Association="MediaFreedomTestModel.Store.FK_Property_PropertyType">
+            <End Role="PropertyType" EntitySet="PropertyType" />
+            <End Role="Property" EntitySet="Property" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PropertyType_PropertyGroup" Association="MediaFreedomTestModel.Store.FK_PropertyType_PropertyGroup">
+            <End Role="PropertyGroup" EntitySet="PropertyGroup" />
+            <End Role="PropertyType" EntitySet="PropertyType" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PropertyTypeDefault_PropertyType" Association="MediaFreedomTestModel.Store.FK_PropertyTypeDefault_PropertyType">
+            <End Role="PropertyType" EntitySet="PropertyType" />
+            <End Role="PropertyTypeDefault" EntitySet="PropertyTypeDefault" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Rating_AssetContentItem" Association="MediaFreedomTestModel.Store.FK_Rating_AssetContentItem">
+            <End Role="AssetContentItem" EntitySet="AssetContentItem" />
+            <End Role="Rating" EntitySet="Rating" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Schedule_Channel" Association="MediaFreedomTestModel.Store.FK_Schedule_Channel">
+            <End Role="Channel" EntitySet="Channel" />
+            <End Role="Schedule" EntitySet="Schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Schedule_Playlist" Association="MediaFreedomTestModel.Store.FK_Schedule_Playlist">
+            <End Role="Playlist" EntitySet="Playlist" />
+            <End Role="Schedule" EntitySet="Schedule" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubtitleAsset_Asset" Association="MediaFreedomTestModel.Store.FK_SubtitleAsset_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="SubtitleAsset" EntitySet="SubtitleAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_SubtitleAsset_Language" Association="MediaFreedomTestModel.Store.FK_SubtitleAsset_Language">
+            <End Role="Language" EntitySet="Language" />
+            <End Role="SubtitleAsset" EntitySet="SubtitleAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaggedAssets_Asset" Association="MediaFreedomTestModel.Store.FK_TaggedAssets_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="TaggedAssets" EntitySet="TaggedAssets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TaggedAssets_TagWord" Association="MediaFreedomTestModel.Store.FK_TaggedAssets_TagWord">
+            <End Role="TagWord" EntitySet="TagWord" />
+            <End Role="TaggedAssets" EntitySet="TaggedAssets" />
+          </AssociationSet>
+          <AssociationSet Name="FK_VideoAsset_Format" Association="MediaFreedomTestModel.Store.FK_VideoAsset_Format">
+            <End Role="Format" EntitySet="Format" />
+            <End Role="VideoAsset" EntitySet="VideoAsset" />
+          </AssociationSet>
+          <AssociationSet Name="FK_WebLinkAsset_Asset" Association="MediaFreedomTestModel.Store.FK_WebLinkAsset_Asset">
+            <End Role="Asset" EntitySet="Asset" />
+            <End Role="WebLinkAsset" EntitySet="WebLinkAsset" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="ApiFormat">
+          <Key>
+            <PropertyRef Name="ApiFormatId" />
+          </Key>
+          <Property Name="ApiFormatId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ApiFormat_Format">
+          <Key>
+            <PropertyRef Name="ApiFormatId" />
+            <PropertyRef Name="FormatId" />
+          </Key>
+          <Property Name="ApiFormatId" Type="int" Nullable="false" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ApiStyle">
+          <Key>
+            <PropertyRef Name="ApiStyleId" />
+          </Key>
+          <Property Name="ApiStyleId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="MimeType" Type="nvarchar" Nullable="false" MaxLength="20" />
+          <Property Name="Location" Type="nvarchar" Nullable="false" MaxLength="200" />
+          <Property Name="IsDefault" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ApiTranslation">
+          <Key>
+            <PropertyRef Name="ApiTranslationId" />
+          </Key>
+          <Property Name="ApiTranslationId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Language" Type="nvarchar" MaxLength="2" />
+          <Property Name="TranslationKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Value" Type="nvarchar" MaxLength="512" />
+        </EntityType>
+        <EntityType Name="Asset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar" MaxLength="512" />
+          <Property Name="AssetType" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="IsModeratable" Type="bit" Nullable="false" />
+          <Property Name="ModeratedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="ModerationDate" Type="datetime" />
+          <Property Name="Status" Type="nvarchar" MaxLength="256" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="AssetGroupId" Type="uniqueidentifier" />
+          <Property Name="PhysicalLocation" Type="nvarchar" MaxLength="512" />
+          <Property Name="VirtualLocation" Type="nvarchar" MaxLength="512" />
+          <Property Name="BaseLanguage" Type="nvarchar" MaxLength="2" />
+          <Property Name="MajorNumber" Type="int" />
+          <Property Name="MinorNumber" Type="int" />
+          <Property Name="FileName" Type="nvarchar" MaxLength="255" />
+          <Property Name="PartId" Type="int" />
+        </EntityType>
+        <EntityType Name="Asset_Asset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+            <PropertyRef Name="RelatedAssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="RelatedAssetId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Asset_AssetContentItem">
+          <Key>
+            <PropertyRef Name="AssetId" />
+            <PropertyRef Name="AssetContentItemId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AssetContentItem">
+          <Key>
+            <PropertyRef Name="AssetContentItemId" />
+          </Key>
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="512" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="ShortDescription" Type="nvarchar" Nullable="false" MaxLength="1024" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="Language" Type="nvarchar" Nullable="false" MaxLength="2" />
+          <Property Name="IsDefault" Type="bit" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" Nullable="false" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="AssetContentPackageId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Duration" Type="int" />
+          <Property Name="PrimaryAssetId" Type="uniqueidentifier" />
+          <Property Name="PrimaryAssetType" Type="nvarchar" MaxLength="256" />
+          <Property Name="IsCommentsEnabled" Type="bit" Nullable="false" />
+          <Property Name="IsRatingsEnabled" Type="bit" Nullable="false" />
+          <Property Name="NumberOfRatings" Type="bigint" />
+          <Property Name="TotalOfRatings" Type="bigint" />
+          <Property Name="AverageRating" Type="int" />
+          <Property Name="NumberOfComments" Type="bigint" />
+        </EntityType>
+        <EntityType Name="AssetContentItem_TagWord">
+          <Key>
+            <PropertyRef Name="TagId" />
+            <PropertyRef Name="AssetContentItemId" />
+          </Key>
+          <Property Name="TagId" Type="int" Nullable="false" />
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AssetContentPackage">
+          <Key>
+            <PropertyRef Name="AssetContentPackageId" />
+          </Key>
+          <Property Name="AssetContentPackageId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" Nullable="false" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="Duration" Type="int" />
+          <Property Name="Active" Type="bit" Nullable="false" />
+          <Property Name="Status" Type="nvarchar" MaxLength="256" />
+          <Property Name="ModerationDate" Type="datetime" />
+          <Property Name="ModeratedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="IsModeratable" Type="bit" Nullable="false" />
+          <Property Name="BehaviourId" Type="int" Nullable="false" />
+          <Property Name="NumberOfRatings" Type="int" Nullable="false" />
+          <Property Name="AverageRating" Type="int" Nullable="false" />
+          <Property Name="IdentImage" Type="nvarchar" MaxLength="512" />
+          <Property Name="IdentLocation" Type="int" Nullable="false" />
+          <Property Name="IdentImageOverridesParent" Type="bit" Nullable="false" />
+          <Property Name="ThumbnailAssetId" Type="uniqueidentifier" />
+          <Property Name="IsRestricted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AssetTypeConfigurationElement">
+          <Key>
+            <PropertyRef Name="AssetTypeConfigurationElementId" />
+          </Key>
+          <Property Name="AssetTypeConfigurationElementId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="AssetTypeId" Type="int" Nullable="false" />
+          <Property Name="Extension" Type="nvarchar" Nullable="false" MaxLength="5" />
+          <Property Name="PhysicalLocation" Type="nvarchar" MaxLength="1000" />
+          <Property Name="VirtualLocation" Type="nvarchar" MaxLength="1000" />
+          <Property Name="ConfigurationElementId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AssignedPermission">
+          <Key>
+            <PropertyRef Name="AssignedPermissionId" />
+          </Key>
+          <Property Name="AssignedPermissionId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SubjectName" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="SubjectIsRole" Type="bit" Nullable="false" />
+          <Property Name="PermissionId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="AudioAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Author" Type="nvarchar" MaxLength="256" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="512" />
+          <Property Name="Duration" Type="int" Nullable="false" />
+          <Property Name="BitRate" Type="int" />
+          <Property Name="Copyright" Type="nvarchar" MaxLength="512" />
+          <Property Name="IsDRMProtected" Type="bit" Nullable="false" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Behaviour">
+          <Key>
+            <PropertyRef Name="BehaviourId" />
+          </Key>
+          <Property Name="BehaviourId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Channel">
+          <Key>
+            <PropertyRef Name="ChannelId" />
+          </Key>
+          <Property Name="ChannelId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="HomePageURL" Type="nvarchar(max)" />
+          <Property Name="Thumbnail" Type="nvarchar" MaxLength="512" />
+          <Property Name="Approved" Type="bit" Nullable="false" />
+          <Property Name="IdentImage" Type="nvarchar" MaxLength="512" />
+          <Property Name="IdentLocation" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Channel_Folder">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ChannelId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="FolderId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="ChapterPoint">
+          <Key>
+            <PropertyRef Name="ChapterPointId" />
+          </Key>
+          <Property Name="ChapterPointId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Position" Type="decimal" Nullable="false" Scale="3" />
+          <Property Name="Thumbnail" Type="nvarchar" MaxLength="512" />
+        </EntityType>
+        <EntityType Name="Comment">
+          <Key>
+            <PropertyRef Name="CommentId" />
+          </Key>
+          <Property Name="CommentId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="UserComment" Type="nvarchar" Nullable="false" />
+          <Property Name="DateEntered" Type="datetime" Nullable="false" />
+          <Property Name="IsModeratable" Type="bit" Nullable="false" />
+          <Property Name="ModeratedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="ModerationDate" Type="datetime" />
+          <Property Name="Status" Type="nvarchar" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="ConfigurationElement">
+          <Key>
+            <PropertyRef Name="ConfigurationElementId" />
+          </Key>
+          <Property Name="ConfigurationElementId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="IsPrimary" Type="bit" Nullable="false" />
+          <Property Name="IsMultilingual" Type="bit" Nullable="false" />
+          <Property Name="DefaultLanguageSource" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="DefaultLanguage" Type="nvarchar" Nullable="false" MaxLength="6" />
+          <Property Name="IsModerationEnabled" Type="bit" Nullable="false" />
+          <Property Name="AreCommentsEnabled" Type="bit" Nullable="false" />
+          <Property Name="AreRatingsEnabled" Type="bit" Nullable="false" />
+          <Property Name="ActivationPage" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="FtpLocation" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="PhysicalLocation" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="VirtualLocation" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="MaxFolderDepth" Type="int" Nullable="false" />
+          <Property Name="MaxContainerCollectionDepth" Type="int" Nullable="false" />
+          <Property Name="AssetFolderRoot" Type="uniqueidentifier" />
+          <Property Name="ProgrammeFolderRoot" Type="uniqueidentifier" />
+          <Property Name="ShowTagClouds" Type="bit" Nullable="false" />
+          <Property Name="LastCacheInvalidation" Type="datetime" Nullable="false" />
+          <Property Name="PlayerTemplateDirectory" Type="nvarchar(max)" Nullable="false" />
+          <Property Name="PlaylistFolderRoot" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Container">
+          <Key>
+            <PropertyRef Name="ContainerId" />
+          </Key>
+          <Property Name="ContainerId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TargetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TypeOfTarget" Type="int" Nullable="false" />
+          <Property Name="Behaviour" Type="int" Nullable="false" />
+          <Property Name="FolderId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="DataAccessElement">
+          <Key>
+            <PropertyRef Name="DataAccessElementId" />
+          </Key>
+          <Property Name="DataAccessElementId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="InterfaceKey" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Assembly" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="ClassName" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="ConfigurationElementId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="DocumentAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Episode">
+          <Key>
+            <PropertyRef Name="EpisodeId" />
+          </Key>
+          <Property Name="EpisodeId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SeriesId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="SeasonNumber" Type="int" />
+          <Property Name="EpisodeNumber" Type="int" Nullable="false" />
+          <Property Name="AssetContentPackageId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FeatureElement">
+          <Key>
+            <PropertyRef Name="FeatureElementId" />
+          </Key>
+          <Property Name="FeatureElementId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="IsEnabled" Type="bit" Nullable="false" />
+          <Property Name="ConfigurationElementId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="FileExtension">
+          <Key>
+            <PropertyRef Name="FileExtensionId" />
+          </Key>
+          <Property Name="FileExtensionId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+          <Property Name="FileExtension" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="Folder">
+          <Key>
+            <PropertyRef Name="FolderId" />
+          </Key>
+          <Property Name="FolderId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar" MaxLength="2000" />
+          <Property Name="ParentFolderId" Type="uniqueidentifier" />
+          <Property Name="Level" Type="int" Nullable="false" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="ContentType" Type="int" Nullable="false" />
+          <Property Name="Colour" Type="nvarchar" MaxLength="7" />
+        </EntityType>
+        <EntityType Name="Format">
+          <Key>
+            <PropertyRef Name="FormatId" />
+          </Key>
+          <Property Name="FormatId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AssetTypeId" Type="int" Nullable="false" />
+          <Property Name="ServerId" Type="bigint" />
+          <Property Name="MimeType" Type="nvarchar" Nullable="false" MaxLength="100" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="ImageAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="WidthPixels" Type="int" />
+          <Property Name="HeightPixels" Type="int" />
+          <Property Name="Copyright" Type="nvarchar" MaxLength="50" />
+          <Property Name="IsWatermarkProtected" Type="bit" Nullable="false" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+          <Property Name="IsThumbnail" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Language">
+          <Key>
+            <PropertyRef Name="CultureCode" />
+          </Key>
+          <Property Name="CultureCode" Type="nvarchar" Nullable="false" MaxLength="2" />
+          <Property Name="CultureName" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="SpecificCulture" Type="nvarchar" Nullable="false" MaxLength="8" />
+        </EntityType>
+        <EntityType Name="LanguageName">
+          <Key>
+            <PropertyRef Name="LanguageCode" />
+            <PropertyRef Name="LanguageCulture" />
+          </Key>
+          <Property Name="LanguageCode" Type="nvarchar" Nullable="false" MaxLength="2" />
+          <Property Name="LanguageCulture" Type="nvarchar" Nullable="false" MaxLength="2" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Part">
+          <Key>
+            <PropertyRef Name="PartId" />
+          </Key>
+          <Property Name="PartId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar" MaxLength="512" />
+        </EntityType>
+        <EntityType Name="Permission">
+          <Key>
+            <PropertyRef Name="PermissionId" />
+          </Key>
+          <Property Name="PermissionId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ObjectName" Type="nvarchar" Nullable="false" MaxLength="512" />
+          <Property Name="Access" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Playlist">
+          <Key>
+            <PropertyRef Name="PlaylistId" />
+          </Key>
+          <Property Name="PlaylistId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="ChannelId" Type="uniqueidentifier" />
+          <Property Name="Duration" Type="int" />
+          <Property Name="UserId" Type="uniqueidentifier" />
+          <Property Name="Colour" Type="nvarchar" MaxLength="7" />
+          <Property Name="IdentImage" Type="nvarchar" MaxLength="512" />
+          <Property Name="IdentLocation" Type="int" Nullable="false" />
+          <Property Name="IdentImageOverridesParent" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PlaylistItem">
+          <Key>
+            <PropertyRef Name="PlaylistItemId" />
+          </Key>
+          <Property Name="PlaylistItemId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="PlaylistId" Type="uniqueidentifier" />
+          <Property Name="Sequence" Type="int" Nullable="false" />
+          <Property Name="ContentId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Property">
+          <Key>
+            <PropertyRef Name="PropertyId" />
+          </Key>
+          <Property Name="PropertyId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="PropertyTypeId" Type="int" Nullable="false" />
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PropertyGroup">
+          <Key>
+            <PropertyRef Name="PropertyGroupId" />
+          </Key>
+          <Property Name="PropertyGroupId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="PropertyType">
+          <Key>
+            <PropertyRef Name="PropertyTypeId" />
+          </Key>
+          <Property Name="PropertyTypeId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="PropertyGroupId" Type="int" Nullable="false" />
+          <Property Name="InputType" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="PropertyTypeDefault">
+          <Key>
+            <PropertyRef Name="PropertyTypeDefaultId" />
+          </Key>
+          <Property Name="PropertyTypeDefaultId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Value" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="SortOrder" Type="int" Nullable="false" />
+          <Property Name="PropertyTypeId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Rating">
+          <Key>
+            <PropertyRef Name="RatingId" />
+          </Key>
+          <Property Name="RatingId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="AssetContentItemId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="UserRating" Type="int" Nullable="false" />
+          <Property Name="DateRated" Type="datetime" Nullable="false" />
+          <Property Name="IsModeratable" Type="bit" Nullable="false" />
+          <Property Name="ModeratedBy" Type="nvarchar" MaxLength="256" />
+          <Property Name="ModerationDate" Type="datetime" />
+          <Property Name="Status" Type="nvarchar" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="RestrictionItem">
+          <Key>
+            <PropertyRef Name="RestrictionItemId" />
+          </Key>
+          <Property Name="RestrictionItemId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="RestrictionValue" Type="nvarchar" MaxLength="50" />
+          <Property Name="RestrictionDesc" Type="nvarchar" MaxLength="255" />
+          <Property Name="Enabled" Type="bit" />
+        </EntityType>
+        <EntityType Name="Schedule">
+          <Key>
+            <PropertyRef Name="ScheduleId" />
+          </Key>
+          <Property Name="ScheduleId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ChannelId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="StartTime" Type="datetime" Nullable="false" />
+          <Property Name="EndTime" Type="datetime" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="PlaylistId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ScheduleSeriesId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="ScheduleItem">
+          <Key>
+            <PropertyRef Name="ScheduleItemId" />
+          </Key>
+          <Property Name="ScheduleItemId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ScheduleId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Sequence" Type="int" Nullable="false" />
+          <Property Name="ContentId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="ScheduleSeries">
+          <Key>
+            <PropertyRef Name="ScheduleSeriesId" />
+          </Key>
+          <Property Name="ScheduleSeriesId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="EndTime" Type="datetime" Nullable="false" />
+          <Property Name="RecurrencePeriod" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Series">
+          <Key>
+            <PropertyRef Name="SeriesId" />
+          </Key>
+          <Property Name="SeriesId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+          <Property Name="ThumbnailAssetId" Type="uniqueidentifier" />
+        </EntityType>
+        <EntityType Name="Server">
+          <Key>
+            <PropertyRef Name="ServerId" />
+          </Key>
+          <Property Name="ServerId" Type="bigint" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="nvarchar" MaxLength="50" />
+          <Property Name="PhysicalLocation" Type="nvarchar" MaxLength="1000" />
+          <Property Name="VirtualLocation" Type="nvarchar" MaxLength="1000" />
+          <Property Name="StreamedFlag" Type="bit" />
+          <Property Name="Suffix" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="StatsAggregatedVideoViews">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DateViewed" Type="datetime" Nullable="false" />
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="ViewCount" Type="int" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'MediaFreedomTest.dbo.StatsPageVisits' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="StatsPageVisits">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="PageUrl" />
+            <PropertyRef Name="DateVisit" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="PageUrl" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="DateVisit" Type="datetime" Nullable="false" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'MediaFreedomTest.dbo.StatsUsers' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="StatsUsers">
+          <Key>
+            <PropertyRef Name="Id" />
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="DateLogin" />
+            <PropertyRef Name="IPAddress" />
+            <PropertyRef Name="Browser" />
+            <PropertyRef Name="BrowserVersion" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="DateLogin" Type="datetime" Nullable="false" />
+          <Property Name="IPAddress" Type="char" Nullable="false" MaxLength="15" />
+          <Property Name="Browser" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="BrowserVersion" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="StatsVideoViews">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="DateViewed" Type="datetime" Nullable="false" />
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+        </EntityType>
+        <EntityType Name="SubtitleAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Language" Type="nvarchar" Nullable="false" MaxLength="2" />
+          <Property Name="Author" Type="nvarchar" MaxLength="50" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="sysdiagrams">
+          <Key>
+            <PropertyRef Name="diagram_id" />
+          </Key>
+          <Property Name="name" Type="nvarchar" Nullable="false" MaxLength="128" />
+          <Property Name="principal_id" Type="int" Nullable="false" />
+          <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="version" Type="int" />
+          <Property Name="definition" Type="varbinary(max)" />
+        </EntityType>
+        <EntityType Name="TaggedAssets">
+          <Key>
+            <PropertyRef Name="TagId" />
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="TagId" Type="int" Nullable="false" />
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TagGroup">
+          <Key>
+            <PropertyRef Name="TagGroupId" />
+          </Key>
+          <Property Name="TagGroupId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="512" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TagGroup_TagWord">
+          <Key>
+            <PropertyRef Name="TagGroupId" />
+            <PropertyRef Name="TagId" />
+          </Key>
+          <Property Name="TagGroupId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="TagId" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TagWord">
+          <Key>
+            <PropertyRef Name="TagId" />
+          </Key>
+          <Property Name="TagId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Keyword" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Description" Type="nvarchar" MaxLength="512" />
+          <Property Name="CreatedBy" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" Nullable="false" />
+          <Property Name="LastModifiedBy" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastModifiedDate" Type="datetime" />
+          <Property Name="VersionNumber" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="TypeOfAsset">
+          <Key>
+            <PropertyRef Name="TypeOfAssetId" />
+          </Key>
+          <Property Name="TypeOfAssetId" Type="int" Nullable="false" />
+          <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+          <Property Name="Description" Type="nvarchar" Nullable="false" MaxLength="100" />
+        </EntityType>
+        <!--Errors Found During Generation:
+      warning 6002: The table/view 'MediaFreedomTest.dbo.UrlRestriction' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.
+      -->
+        <EntityType Name="UrlRestriction">
+          <Key>
+            <PropertyRef Name="UrlRestrictionId" />
+            <PropertyRef Name="Url" />
+            <PropertyRef Name="IsWhitelisted" />
+          </Key>
+          <Property Name="UrlRestrictionId" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Url" Type="nvarchar" Nullable="false" MaxLength="255" />
+          <Property Name="IsWhitelisted" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="User_AssetViewed">
+          <Key>
+            <PropertyRef Name="UserName" />
+            <PropertyRef Name="AssetId" />
+            <PropertyRef Name="WhenViewed" />
+          </Key>
+          <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="WhenViewed" Type="datetime" Nullable="false" />
+        </EntityType>
+        <EntityType Name="VideoAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="Duration" Type="int" Nullable="false" />
+          <Property Name="BitRate" Type="int" />
+          <Property Name="Width" Type="int" Nullable="false" />
+          <Property Name="Height" Type="int" Nullable="false" />
+          <Property Name="AspectRatio" Type="nvarchar" MaxLength="256" />
+          <Property Name="Author" Type="nvarchar" MaxLength="256" />
+          <Property Name="Genre" Type="nvarchar" MaxLength="256" />
+          <Property Name="Copyright" Type="nvarchar" MaxLength="512" />
+          <Property Name="VideoDescription" Type="nvarchar" MaxLength="256" />
+          <Property Name="IsDrmProtected" Type="bit" Nullable="false" />
+          <Property Name="IsWatermarkProtected" Type="bit" Nullable="false" />
+          <Property Name="ContentState" Type="nvarchar" Nullable="false" MaxLength="256" />
+          <Property Name="FormatId" Type="int" Nullable="false" />
+          <Property Name="Streamed" Type="bit" Nullable="false" />
+          <Property Name="AdaptiveStream" Type="bit" Nullable="false" />
+        </EntityType>
+        <EntityType Name="WebLinkAsset">
+          <Key>
+            <PropertyRef Name="AssetId" />
+          </Key>
+          <Property Name="AssetId" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="Url" Type="nvarchar" Nullable="false" MaxLength="1000" />
+          <Property Name="NewWindow" Type="bit" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_ApiFormat_Format_ApiFormat">
+          <End Role="ApiFormat" Type="MediaFreedomTestModel.Store.ApiFormat" Multiplicity="1" />
+          <End Role="ApiFormat_Format" Type="MediaFreedomTestModel.Store.ApiFormat_Format" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="ApiFormat">
+              <PropertyRef Name="ApiFormatId" />
+            </Principal>
+            <Dependent Role="ApiFormat_Format">
+              <PropertyRef Name="ApiFormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApiFormat_Format_Format">
+          <End Role="Format" Type="MediaFreedomTestModel.Store.Format" Multiplicity="1" />
+          <End Role="ApiFormat_Format" Type="MediaFreedomTestModel.Store.ApiFormat_Format" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Format">
+              <PropertyRef Name="FormatId" />
+            </Principal>
+            <Dependent Role="ApiFormat_Format">
+              <PropertyRef Name="FormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ApiTranslation_Language">
+          <End Role="Language" Type="MediaFreedomTestModel.Store.Language" Multiplicity="0..1" />
+          <End Role="ApiTranslation" Type="MediaFreedomTestModel.Store.ApiTranslation" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Language">
+              <PropertyRef Name="CultureCode" />
+            </Principal>
+            <Dependent Role="ApiTranslation">
+              <PropertyRef Name="Language" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Asset_AssetContentItem_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="Asset_AssetContentItem" Type="MediaFreedomTestModel.Store.Asset_AssetContentItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="Asset_AssetContentItem">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Asset_AssetContentItem_AssetContentItem">
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="1" />
+          <End Role="Asset_AssetContentItem" Type="MediaFreedomTestModel.Store.Asset_AssetContentItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Principal>
+            <Dependent Role="Asset_AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssetContentItem_AssetContentPackage">
+          <End Role="AssetContentPackage" Type="MediaFreedomTestModel.Store.AssetContentPackage" Multiplicity="1" />
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentPackage">
+              <PropertyRef Name="AssetContentPackageId" />
+            </Principal>
+            <Dependent Role="AssetContentItem">
+              <PropertyRef Name="AssetContentPackageId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssetContentItem_Language">
+          <End Role="Language" Type="MediaFreedomTestModel.Store.Language" Multiplicity="1" />
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Language">
+              <PropertyRef Name="CultureCode" />
+            </Principal>
+            <Dependent Role="AssetContentItem">
+              <PropertyRef Name="Language" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssetContentItem_TagWord_AssetContentItem">
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="1" />
+          <End Role="AssetContentItem_TagWord" Type="MediaFreedomTestModel.Store.AssetContentItem_TagWord" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Principal>
+            <Dependent Role="AssetContentItem_TagWord">
+              <PropertyRef Name="AssetContentItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssetContentItem_TagWord_TagWord">
+          <End Role="TagWord" Type="MediaFreedomTestModel.Store.TagWord" Multiplicity="1" />
+          <End Role="AssetContentItem_TagWord" Type="MediaFreedomTestModel.Store.AssetContentItem_TagWord" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TagWord">
+              <PropertyRef Name="TagId" />
+            </Principal>
+            <Dependent Role="AssetContentItem_TagWord">
+              <PropertyRef Name="TagId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AssetContentPackage_Behaviour">
+          <End Role="Behaviour" Type="MediaFreedomTestModel.Store.Behaviour" Multiplicity="1" />
+          <End Role="AssetContentPackage" Type="MediaFreedomTestModel.Store.AssetContentPackage" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Behaviour">
+              <PropertyRef Name="BehaviourId" />
+            </Principal>
+            <Dependent Role="AssetContentPackage">
+              <PropertyRef Name="BehaviourId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AudioAsset_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="AudioAsset" Type="MediaFreedomTestModel.Store.AudioAsset" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="AudioAsset">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AudioAsset_Format">
+          <End Role="Format" Type="MediaFreedomTestModel.Store.Format" Multiplicity="1" />
+          <End Role="AudioAsset" Type="MediaFreedomTestModel.Store.AudioAsset" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Format">
+              <PropertyRef Name="FormatId" />
+            </Principal>
+            <Dependent Role="AudioAsset">
+              <PropertyRef Name="FormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ChapterPoint_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="ChapterPoint" Type="MediaFreedomTestModel.Store.ChapterPoint" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="ChapterPoint">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Comment_AssetContentItem">
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="1" />
+          <End Role="Comment" Type="MediaFreedomTestModel.Store.Comment" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Principal>
+            <Dependent Role="Comment">
+              <PropertyRef Name="AssetContentItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DocumentAsset_Format">
+          <End Role="Format" Type="MediaFreedomTestModel.Store.Format" Multiplicity="1" />
+          <End Role="DocumentAsset" Type="MediaFreedomTestModel.Store.DocumentAsset" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Format">
+              <PropertyRef Name="FormatId" />
+            </Principal>
+            <Dependent Role="DocumentAsset">
+              <PropertyRef Name="FormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ImageAsset_Format">
+          <End Role="Format" Type="MediaFreedomTestModel.Store.Format" Multiplicity="1" />
+          <End Role="ImageAsset" Type="MediaFreedomTestModel.Store.ImageAsset" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Format">
+              <PropertyRef Name="FormatId" />
+            </Principal>
+            <Dependent Role="ImageAsset">
+              <PropertyRef Name="FormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PlaylistItem_Playlist">
+          <End Role="Playlist" Type="MediaFreedomTestModel.Store.Playlist" Multiplicity="0..1" />
+          <End Role="PlaylistItem" Type="MediaFreedomTestModel.Store.PlaylistItem" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Playlist">
+              <PropertyRef Name="PlaylistId" />
+            </Principal>
+            <Dependent Role="PlaylistItem">
+              <PropertyRef Name="PlaylistId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Property_AssetContentItem">
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="1" />
+          <End Role="Property" Type="MediaFreedomTestModel.Store.Property" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Principal>
+            <Dependent Role="Property">
+              <PropertyRef Name="AssetContentItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Property_PropertyType">
+          <End Role="PropertyType" Type="MediaFreedomTestModel.Store.PropertyType" Multiplicity="1" />
+          <End Role="Property" Type="MediaFreedomTestModel.Store.Property" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PropertyType">
+              <PropertyRef Name="PropertyTypeId" />
+            </Principal>
+            <Dependent Role="Property">
+              <PropertyRef Name="PropertyTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PropertyType_PropertyGroup">
+          <End Role="PropertyGroup" Type="MediaFreedomTestModel.Store.PropertyGroup" Multiplicity="1" />
+          <End Role="PropertyType" Type="MediaFreedomTestModel.Store.PropertyType" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PropertyGroup">
+              <PropertyRef Name="PropertyGroupId" />
+            </Principal>
+            <Dependent Role="PropertyType">
+              <PropertyRef Name="PropertyGroupId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PropertyTypeDefault_PropertyType">
+          <End Role="PropertyType" Type="MediaFreedomTestModel.Store.PropertyType" Multiplicity="1" />
+          <End Role="PropertyTypeDefault" Type="MediaFreedomTestModel.Store.PropertyTypeDefault" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="PropertyType">
+              <PropertyRef Name="PropertyTypeId" />
+            </Principal>
+            <Dependent Role="PropertyTypeDefault">
+              <PropertyRef Name="PropertyTypeId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Rating_AssetContentItem">
+          <End Role="AssetContentItem" Type="MediaFreedomTestModel.Store.AssetContentItem" Multiplicity="1" />
+          <End Role="Rating" Type="MediaFreedomTestModel.Store.Rating" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AssetContentItem">
+              <PropertyRef Name="AssetContentItemId" />
+            </Principal>
+            <Dependent Role="Rating">
+              <PropertyRef Name="AssetContentItemId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Schedule_Channel">
+          <End Role="Channel" Type="MediaFreedomTestModel.Store.Channel" Multiplicity="1" />
+          <End Role="Schedule" Type="MediaFreedomTestModel.Store.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Channel">
+              <PropertyRef Name="ChannelId" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="ChannelId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Schedule_Playlist">
+          <End Role="Playlist" Type="MediaFreedomTestModel.Store.Playlist" Multiplicity="1" />
+          <End Role="Schedule" Type="MediaFreedomTestModel.Store.Schedule" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Playlist">
+              <PropertyRef Name="PlaylistId" />
+            </Principal>
+            <Dependent Role="Schedule">
+              <PropertyRef Name="PlaylistId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubtitleAsset_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="SubtitleAsset" Type="MediaFreedomTestModel.Store.SubtitleAsset" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="SubtitleAsset">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_SubtitleAsset_Language">
+          <End Role="Language" Type="MediaFreedomTestModel.Store.Language" Multiplicity="1" />
+          <End Role="SubtitleAsset" Type="MediaFreedomTestModel.Store.SubtitleAsset" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Language">
+              <PropertyRef Name="CultureCode" />
+            </Principal>
+            <Dependent Role="SubtitleAsset">
+              <PropertyRef Name="Language" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaggedAssets_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="TaggedAssets" Type="MediaFreedomTestModel.Store.TaggedAssets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="TaggedAssets">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TaggedAssets_TagWord">
+          <End Role="TagWord" Type="MediaFreedomTestModel.Store.TagWord" Multiplicity="1" />
+          <End Role="TaggedAssets" Type="MediaFreedomTestModel.Store.TaggedAssets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TagWord">
+              <PropertyRef Name="TagId" />
+            </Principal>
+            <Dependent Role="TaggedAssets">
+              <PropertyRef Name="TagId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_VideoAsset_Format">
+          <End Role="Format" Type="MediaFreedomTestModel.Store.Format" Multiplicity="1" />
+          <End Role="VideoAsset" Type="MediaFreedomTestModel.Store.VideoAsset" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Format">
+              <PropertyRef Name="FormatId" />
+            </Principal>
+            <Dependent Role="VideoAsset">
+              <PropertyRef Name="FormatId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_WebLinkAsset_Asset">
+          <End Role="Asset" Type="MediaFreedomTestModel.Store.Asset" Multiplicity="1" />
+          <End Role="WebLinkAsset" Type="MediaFreedomTestModel.Store.WebLinkAsset" Multiplicity="0..1" />
+          <ReferentialConstraint>
+            <Principal Role="Asset">
+              <PropertyRef Name="AssetId" />
+            </Principal>
+            <Dependent Role="WebLinkAsset">
+              <PropertyRef Name="AssetId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <!--Errors Found During Generation:
+      warning 6013: The table/view 'MediaFreedomTest.dbo.RestrictionItemsApplied' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity you will need to review your schema, add the correct keys and uncomment it.
+      
+      <EntityType Name="RestrictionItemsApplied">
+        <Property Name="RestrictionItemId" Type="bigint" />
+        <Property Name="AssetContentPackageId" Type="uniqueidentifier" />
+      </EntityType>-->
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="MediaFreedomTestModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm">
+        <EntityContainer Name="MediaFreedomTestEntities">
+          </EntityContainer>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="urn:schemas-microsoft-com:windows:storage:mapping:CS">
+        <EntityContainerMapping StorageEntityContainer="MediaFreedomTestModelStoreContainer" CdmEntityContainer="MediaFreedomTestEntities">
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2007/06/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram Name="MyExample" ZoomLevel="54">
+        </Diagram></edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

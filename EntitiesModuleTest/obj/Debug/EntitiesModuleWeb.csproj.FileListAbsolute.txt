@@ -1,0 +1,7 @@
+C:\clients\EntitiesModule\EntitiesModuleTest\bin\EntitiesModuleWeb.dll
+C:\clients\EntitiesModule\EntitiesModuleTest\bin\EntitiesModuleWeb.pdb
+C:\clients\EntitiesModule\EntitiesModuleTest\obj\Debug\ResolveAssemblyReference.cache
+C:\clients\EntitiesModule\EntitiesModuleTest\obj\Debug\EntitiesModuleWeb.dll
+C:\clients\EntitiesModule\EntitiesModuleTest\obj\Debug\EntitiesModuleWeb.pdb
+C:\clients\EntitiesModule\EntitiesModuleTest\bin\Library.Modules.EntitiesModule.dll
+C:\clients\EntitiesModule\EntitiesModuleTest\bin\Library.Modules.EntitiesModule.pdb
